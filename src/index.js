@@ -2,9 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./components/App";
 
-ReactDOM.render( 
-    <App/>
-    ,document.getElementById("root")
+ReactDOM.render( <
+    App / > , document.getElementById("root")
 );
 //1. Create a new React app.
 //2. Create a App.jsx component.
@@ -18,3 +17,6 @@ ReactDOM.render(
 //https://l1pp6.csb.app/
 
 //HINT: You will need to study the classes in teh styles.css file to appy styling.
+
+//Challenge. Render all the notes inside notes.js as a seperate Note
+//component

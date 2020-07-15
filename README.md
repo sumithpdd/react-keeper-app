@@ -16,7 +16,13 @@ Import react modules in index.js
 import React from "react";
 import ReactDOM from "react-dom";
 
-ReactDOM.render( 
+ReactDOM.render(
     <h1> Hello World </h1>,document.getElementById("root")
 );
+```
+
+To start the app run
+
+``` powershell
+npm start
 ```
